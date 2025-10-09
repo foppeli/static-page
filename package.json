@@ -1,0 +1,31 @@
+{
+  "name": "foppeli-coming-soon",
+  "version": "1.0.0",
+  "description": "Enterprise-grade coming soon page for Foppeli premium kids wear",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "lint:css": "npx stylelint 'assets/css/**/*.css'",
+    "lint:js": "npx eslint 'assets/js/**/*.js'",
+    "format": "npx prettier --write '**/*.{html,css,js,json,md}'",
+    "validate": "npx html-validator-cli index.html"
+  },
+  "keywords": [
+    "foppeli",
+    "kids-wear",
+    "coming-soon",
+    "landing-page",
+    "static-website"
+  ],
+  "author": "Foppeli",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foppeli/static-page.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
