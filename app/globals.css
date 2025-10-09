@@ -43,7 +43,7 @@
     --transition-fast: all 0.2s ease;
 
     /* Typography */
-    --font-family-base: 'Afacad', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -54,17 +54,6 @@
 
     /* Animation Durations */
     --animation-duration-base: 0.8s;
-}
-
-/* ==========================================================================
-   Font Face
-   ========================================================================== */
-@font-face {
-    font-family: 'Afacad';
-    src: url('Afacad.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 /* ==========================================================================
