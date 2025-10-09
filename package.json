@@ -1,31 +1,47 @@
 {
   "name": "foppeli-coming-soon",
   "version": "1.0.0",
-  "description": "Enterprise-grade coming soon page for Foppeli premium kids wear",
-  "main": "index.html",
+  "description": "Enterprise-grade Next.js coming soon page for Foppeli premium kids wear",
+  "private": true,
   "scripts": {
-    "start": "npx http-server -p 8080 -o",
-    "lint:css": "npx stylelint 'assets/css/**/*.css'",
-    "lint:js": "npx eslint 'assets/js/**/*.js'",
-    "format": "npx prettier --write '**/*.{html,css,js,json,md}'",
-    "validate": "npx html-validator-cli index.html"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\""
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "prettier": "^3.2.0"
   },
   "keywords": [
     "foppeli",
     "kids-wear",
     "coming-soon",
-    "landing-page",
-    "static-website"
+    "nextjs",
+    "react",
+    "typescript"
   ],
   "author": "Foppeli",
   "license": "UNLICENSED",
-  "private": true,
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/foppeli/static-page.git"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
