@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -9,13 +8,12 @@ export default function Home() {
             <main className={styles.content}>
                 {/* Logo Section */}
                 <header className={styles.logoSection}>
-                    <Image
-                        src="/images/logo.png"
+                    <img
+                        src="images/logo.png"
                         alt="Foppeli - Premium Kids Wear Logo"
-                        width={320}
-                        height={100}
+                        width="320"
+                        height="100"
                         className={styles.logoImage}
-                        priority
                     />
                 </header>
 
@@ -31,21 +29,21 @@ export default function Home() {
                 <section className={styles.showcaseSection} aria-label="Product showcase">
                     <div className={styles.showcaseImages}>
                         <article className={styles.showcaseItem}>
-                            <Image
-                                src="/images/boy_casual_wear.png"
+                            <img
+                                src="images/boy_casual_wear.png"
                                 alt="Young boy wearing comfortable casual clothing from Foppeli collection"
-                                width={400}
-                                height={533}
+                                width="400"
+                                height="533"
                                 className={styles.showcaseImage}
                                 loading="lazy"
                             />
                         </article>
                         <article className={styles.showcaseItem}>
-                            <Image
-                                src="/images/girl_casual_wear.png"
+                            <img
+                                src="images/girl_casual_wear.png"
                                 alt="Young girl wearing stylish casual clothing from Foppeli collection"
-                                width={400}
-                                height={533}
+                                width="400"
+                                height="533"
                                 className={styles.showcaseImage}
                                 loading="lazy"
                             />
