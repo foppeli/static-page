@@ -3,35 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Foppeli - Premium kids wear for ages 0-8. Coming soon with thoughtfully designed, comfortable clothing for your little ones.">
+    <meta name="keywords" content="kids wear, children clothing, premium kids fashion, ages 0-8">
+    <meta name="author" content="Foppeli">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Foppeli - Premium Kids Wear Coming Soon">
+    <meta property="og:description" content="Premium kids wear for ages 0-8. Thoughtfully designed clothes that grow with your child.">
+    <meta property="og:type" content="website">
+
     <title>Foppeli - Coming Soon</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <div class="logo-section">
-                <img src="logo.png" alt="Foppeli Logo" class="logo-image">
-            </div>
+        <main class="content">
+            <!-- Logo Section -->
+            <header class="logo-section">
+                <img src="logo.png" alt="Foppeli - Premium Kids Wear Logo" class="logo-image" width="320" height="auto">
+            </header>
 
-            <div class="hero-section">
-                <h1 class="hero-title">Launching Soon</h1>
+            <!-- Hero Section -->
+            <section class="hero-section" aria-labelledby="hero-title">
+                <h1 id="hero-title" class="hero-title">Launching Soon</h1>
                 <p class="hero-subtitle">Premium Kids Wear • Ages 0-8</p>
-            </div>
+            </section>
 
-            <div class="showcase-section">
+            <!-- Showcase Section -->
+            <section class="showcase-section" aria-label="Product showcase">
                 <div class="showcase-images">
-                    <div class="showcase-item">
-                        <img src="img_1.png" alt="Boy in casual dress" class="showcase-image">
-                    </div>
-                    <div class="showcase-item">
-                        <img src="img_2.png" alt="Girl in casual dress" class="showcase-image">
-                    </div>
+                    <article class="showcase-item">
+                        <img
+                            src="boy_casual_wear.png"
+                            alt="Young boy wearing comfortable casual clothing from Foppeli collection"
+                            class="showcase-image"
+                            loading="lazy"
+                        >
+                    </article>
+                    <article class="showcase-item">
+                        <img
+                            src="girl_casual_wear.png"
+                            alt="Young girl wearing stylish casual clothing from Foppeli collection"
+                            class="showcase-image"
+                            loading="lazy"
+                        >
+                    </article>
                 </div>
-            </div>
+            </section>
 
-            <div class="story-section">
+            <!-- Story Section -->
+            <section class="story-section" aria-labelledby="story-heading">
                 <div class="story-content">
+                    <h2 class="visually-hidden" id="story-heading">Our Story</h2>
                     <p class="story-text">
                         Once upon a time, in a world where little ones grew faster than wildflowers,
                         we dreamed of creating something special. Clothes that feel like a warm hug,
@@ -45,33 +69,35 @@
                         Our story begins soon...
                     </p>
                 </div>
-            </div>
+            </section>
 
-            <div class="features">
-                <div class="feature">
+            <!-- Features Section -->
+            <section class="features" aria-label="Key features">
+                <article class="feature">
                     <div class="feature-content">
                         <h3>Premium Quality</h3>
                         <p>Carefully selected fabrics for ultimate comfort</p>
                     </div>
-                </div>
-                <div class="feature">
+                </article>
+                <article class="feature">
                     <div class="feature-content">
                         <h3>Thoughtful Design</h3>
                         <p>Modern styles that grow with your child</p>
                     </div>
-                </div>
-                <div class="feature">
+                </article>
+                <article class="feature">
                     <div class="feature-content">
                         <h3>Ages 0-8</h3>
                         <p>Perfect fit for every developmental stage</p>
                     </div>
-                </div>
-            </div>
+                </article>
+            </section>
 
+            <!-- Footer -->
             <footer>
-                <p>&copy; 2025 Foppeli. All rights reserved.</p>
+                <p>&copy; <time datetime="2025">2025</time> Foppeli. All rights reserved.</p>
             </footer>
-        </div>
+        </main>
     </div>
 
     <script src="script.js"></script>
