@@ -1,0 +1,22 @@
+# Robots.txt for Foppeli
+# https://foppeli.com
+
+User-agent: *
+Allow: /
+Disallow: /_next/static/
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Sitemap
+Sitemap: https://foppeli.com/sitemap.xml
+
+# Special bot configurations
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /

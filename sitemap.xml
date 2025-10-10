@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://foppeli.com/</loc>
+        <lastmod>2025-10-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://foppeli.com/images/logo.png</image:loc>
+            <image:title>Foppeli Logo - Premium Kids Wear</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://foppeli.com/images/boy_casual_wear.png</image:loc>
+            <image:title>Young boy wearing comfortable casual clothing from Foppeli collection</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://foppeli.com/images/girl_casual_wear.png</image:loc>
+            <image:title>Young girl wearing stylish casual clothing from Foppeli collection</image:title>
+        </image:image>
+    </url>
+</urlset>
